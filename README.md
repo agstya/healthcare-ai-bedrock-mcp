@@ -1,4 +1,4 @@
-# Amazon Bedrock and MCP Server integratioN
+# Amazon Bedrock and MCP Server integration
 
 This project demonstrates how to integrate foundation models on Amazon Bedrock with Chainlit and MCP (Model Context Protocol) servers to create an interactive chat interface with tool-enhanced capabilities.
 
