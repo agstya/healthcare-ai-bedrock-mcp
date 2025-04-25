@@ -1,0 +1,26 @@
+/* Custom Chainlit CSS Styling */
+:root {
+    --primary-color: #3498db;
+    --background-color: #f4f4f4;
+  }
+  
+  .chat-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--background-color);
+  }
+  
+  .message {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .user-message {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .assistant-message {
+    background-color: #e0e0e0;
+  }
