@@ -27,7 +27,7 @@ banner.insertAdjacentElement("afterend", image);
 
 // Add a custom description below the image
 const description = document.createElement("p");
-description.textContent = "This tool integrates MCP with MIMIC-IV data to assist healthcare professionals and patients (care providers and receivers) by answering healthcare-related questions.";
+description.textContent = "This tool integrates MCP with EHR data to assist healthcare professionals and patients (care providers and receivers) by answering healthcare-related questions.";
 description.style.textAlign = "center";
 description.style.margin = "20px auto";
 description.style.fontSize = "16px";
