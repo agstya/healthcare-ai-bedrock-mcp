@@ -28,8 +28,8 @@ Before getting started, ensure you have:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/aws-samples/sample-bedrock-mcp.git
-   cd sample-bedrock-chainlit-mcp
+   git clone https://github.com/agstya/healthcare-ai-bedrock-mcp.git
+   cd healthcare-ai-bedrock-mcp
    ```
 
 2. Create a virtual environment and install dependencies using UV:
