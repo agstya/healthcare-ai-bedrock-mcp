@@ -1,4 +1,4 @@
-# Amazon Bedrock and MCP Server integration
+# Health Care AI  - Conext-aware AI system with MCP 
 
 This project demonstrates how to integrate foundation models on Amazon Bedrock with Chainlit and MCP (Model Context Protocol) servers to create an interactive chat interface with tool-enhanced capabilities.
 
@@ -82,16 +82,6 @@ The Math MCP server needs to be connected to provide calculation capabilities:
 
 A successful connection will be indicated in the interface, and the math tools will become available to the Claude model.
 
-### Example Usage
-
-Once the Chainlit application is running and the MCP server is connected, you can ask mathematical questions like:
-
-- "What's (3 + 5) x 12?"
-- "Can you calculate 144 divided by 12?"
-- "If I have 7 apples and get 9 more, then give 4 away, how many do I have left?"
-
-The model will use the MCP tools to perform the calculations and return the results.
-
 ## Technical Implementation
 
 ### LangGraph Integration
@@ -114,15 +104,6 @@ The `langchain-mcp-adapters` package serves as a bridge between LangChain and MC
 - This enables seamless integration between the Claude model on Amazon Bedrock and the custom math tools
 
 This adapter pattern allows the application to easily incorporate additional MCP servers with different capabilities in the future.
-
-## MCP Server Details
-
-This project includes a simple MCP server with the following arithmetic operations:
-
-- **add**: Add two numbers together
-- **subtract**: Subtract one number from another
-- **multiply**: Multiply two numbers together
-- **divide**: Divide one number by another
 
 These operations are exposed as tools that the Claude model can use when prompted with mathematical questions.
 
