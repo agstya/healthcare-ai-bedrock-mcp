@@ -87,7 +87,7 @@ Use the `edit` tool to write the updated content back to each file.
 ### 5. Open a Pull Request
 
 After making all updates, emit a `create_pull_request` safe output with:
-- A clear title summarising what was updated (e.g., "Update README to reflect new MCP server structure")
+- A clear title summarizing what was updated (e.g., "Update README to reflect new MCP server structure")
 - A body that lists each file changed and explains what was updated and why
 - All modified documentation files included in the patch
 
